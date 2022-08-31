@@ -274,7 +274,7 @@ int sum(int* arr, int len);
 上面示例中，传入一个整数数组，与传入一个整数指针是同一回事，数组符号`[]`与指针符号`*`是可以互换的。下一个例子是通过数组指针对成员求和。
 
 ```c
-int sum(int* arr, int len) {
+int sum(int* arr, int len); {
   int i;
   int total = 0;
 
